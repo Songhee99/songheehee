@@ -1,0 +1,31 @@
+.status-bar-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar-second {
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.status-bar-second div {
+  background-color: rgb(214, 214, 214);
+  border-radius: 250%;
+  height: 20px;
+  padding: 10px;
+}
+
+#search {
+  border: 1px solid black;
+  padding: 0px 100px;
+  background-color: white;
+  text-align: left;
+}
+
+.status-bar-side {
+  display: flex;
+  flex-direction: column;
+}
